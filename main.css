@@ -1,0 +1,39 @@
+html,
+body {
+  background: black;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.main-container {
+  background-image: url('https://github.com/mcnuttandrew/mcnuttandrew.github.io/raw/master/assets/checkerboard.gif');
+}
+
+.label-container {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  width: 100%;
+}
+
+.full-size {
+  height: 100%;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-down {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
